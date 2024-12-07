@@ -72,6 +72,7 @@ nav .right a span {
 
 .hero-section .text {
   flex: 5;
+  text-align: left;
 }
 
 .hero-section .text h2 {
@@ -98,14 +99,16 @@ nav .right a span {
 }
 
 .hero-section .headshot {
-  flex: 2;
-  display: flex;
-  justify-content: right;
+  margin-right: 100px;
+  border: 3px solid black;
+  height: 324px;
+  border-radius: 11.2%;
 }
 
 .hero-section .headshot img {
-  width: 350px;
-  border-radius: 50%;
+  width: 220px;
+  border-radius: 10%;
+
 }
 
 /* SECTION 2: Skills */
@@ -162,13 +165,16 @@ nav .right a span {
 
 .testimony-section h2 {
   font-size: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 1px;
 }
 
 .testimony-section .group {
   display: flex;
   align-items: center;
   gap: 50px;
+}
+.testimony-section .text1 {
+  margin-bottom: 50px;
 }
 
 .testimony-section .group .person-details {
@@ -177,23 +183,23 @@ nav .right a span {
 }
 
 .testimony-section .group .person-details img {
-  width: 200px;
+  width: 150px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
-.testimony-section .group .person-details p {
+.testimony-section .text .primero {
   font-weight: 600;
+  margin-bottom: 12px;
 }
 
-.testimony-section .group .person-details p:last-child {
-  font-weight: normal;
-}
+
 
 .testimony-section .group .text {
   flex: 8;
+  
 }
 
 /* SECTION 4: Contact */
